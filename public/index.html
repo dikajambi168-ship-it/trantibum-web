@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Trantibum Tracker</title>
+</head>
+<body>
+  <h2>Login</h2>
+  <input id="email" value="admin@trantibum.local">
+  <input id="pass" type="password" value="Admin123!">
+  <button onclick="login()">Masuk</button>
+  <div id="msg"></div>
+  <hr>
+  <h2>Kategori</h2>
+  <input id="code" placeholder="Kode">
+  <input id="name" placeholder="Nama">
+  <button onclick="addType()">Tambah</button>
+  <ul id="types"></ul>
+  <hr>
+  <h2>Pelanggaran</h2>
+  <select id="selType"></select>
+  <input id="lat" placeholder="Lat">
+  <input id="lng" placeholder="Lng">
+  <input id="desc" placeholder="Deskripsi">
+  <button onclick="addOffense()">Catat</button>
+  <ul id="offenses"></ul>
+  <script src="app.js"></script>
+</body>
+</html>
